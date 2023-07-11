@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util
+class UserMainCode
+
+public static int getSecondLastDigit(int number) {
+    // Check if the number is a single digit
+    if (Math.abs(number) < 10) {
+        return -1;
+    }
+
+    // Get the second last digit
+    int secondLastDigit = Math.abs(number / 10) % 10;
+
+    return secondLastDigit;
+}

@@ -1,0 +1,8 @@
+import java.io.*;
+import java.util
+class UserMainCode
+
+if (input1 % 2 == 0) {
+            return 1; // The number is even
+        } else {
+            return 2; // The number is odd
