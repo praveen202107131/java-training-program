@@ -1,0 +1,10 @@
+public class MultipleChecker {
+    public static int checkMultiple(int firstNum, int secondNum) {
+        if (firstNum == 0 || secondNum == 0) {
+            return 3; // Either of the parameters is zero
+        } else if (firstNum % secondNum == 0) {
+            return 2; // First number is a positive or negative exact multiple of the second number
+        } else {
+            return 1; // First number is not an exact multiple of the second number
+        }
+    }
